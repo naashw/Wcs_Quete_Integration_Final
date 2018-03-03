@@ -16,6 +16,13 @@
   font-family: 'Symbol';
 }
 
+.fontSmall{
+  font-size: 0.8em;
+}
+
+.fontOrange{
+  color: #ff5e18;
+}
 /* Les font family au dessu */
 
 
