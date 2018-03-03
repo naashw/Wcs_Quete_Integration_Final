@@ -1,0 +1,43 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.fontTitre{
+  font-family: 'Titre';
+}
+
+.fontTexte{
+  font-family: 'Texte';
+}
+
+.fontSymbol{
+  font-family: 'Symbol';
+}
+
+/* Les font family au dessu */
+
+
+.underline>li>a:hover{
+      border-bottom: 10px solid black;
+      margin-bottom: -10px;
+}
+
+.colorWhite, .colorWhite a{
+  color: white !important;
+}
+
+
+.orange{
+  background-color: #ff5e18;
+}
+
+.item{
+width: 100vw;
+height: 50vh;
+}
+
+.item img{
+display: none;
+}
