@@ -1,50 +1,65 @@
-*{
-  padding: 0px;
-  margin: 0px;
-}
-
-
-.fontTitre{
+.fontTitre {
   font-family: 'Titre';
 }
 
-.fontTexte{
+.fontTexte {
   font-family: 'Texte';
 }
 
-.fontSymbol{
+.fontSymbol {
   font-family: 'Symbol';
 }
 
-.fontSmall{
+.fontSmall {
   font-size: 0.8em;
 }
 
-.fontOrange{
+
+/* Les font au dessu */
+
+.fontOrange {
   color: #ff5e18;
 }
-/* Les font family au dessu */
 
 
-.underline>li>a:hover{
-      border-bottom: 10px solid black;
-      margin-bottom: -10px;
-}
-
-.colorWhite, .colorWhite a{
+.colorWhite, .colorWhite a {
   color: white !important;
 }
 
-
-.orange{
+.orange {
   background-color: #ff5e18;
 }
 
-.item{
-width: 100vw;
-height: 50vh;
+
+/* Les couleurs au dessu */
+
+.container-fluid {
+  padding: 0;
 }
 
-.item img{
-display: none;
+.navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.carousel {
+  margin: 0;
+}
+
+.underline>li>a:hover {
+  border-bottom: 9px solid black;
+  margin-bottom: -10px;
+}
+
+
+.item {
+  margin: 0;
+  width: 100vw;
+  height: 50vh;
+}
+
+.item img {
+  display: none;
 }
