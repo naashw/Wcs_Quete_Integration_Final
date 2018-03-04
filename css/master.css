@@ -1,9 +1,11 @@
 .fontTitre {
   font-family: 'Titre';
+  font-size: 1.2em;
 }
 
 .fontTexte {
   font-family: 'Texte';
+  font-size: 2em;
 }
 
 .fontSymbol {
@@ -12,6 +14,10 @@
 
 .fontSmall {
   font-size: 0.8em;
+}
+
+.fontTall{
+  font-size: 1.3em;
 }
 
 
@@ -33,8 +39,12 @@
 
 /* Les couleurs au dessu */
 
-.container-fluid {
+.paddingzero {
   padding: 0 !important;
+}
+
+.paddingbot{
+  padding-bottom: 20;
 }
 
 .navbar {
@@ -56,10 +66,28 @@
 
 .item {
   margin: 0;
-  width: 100vw;
-  height: 50vh;
+  width:  100%;
+  max-height: 50vh;
 }
 
-.item img {
-  display: none;
+.nav-pills li a{
+  text-decoration: none;
+  color: #747474;
+}
+
+.nav-pills li a:hover{
+  text-decoration: none;
+  color: #747474;
+}
+
+.thumbnail{
+  background-color: #1d1d1d;
+}
+
+.thumbnail img{
+ width: 100%;
+}
+
+.thumbnail .caption p{
+  color: #b3b3b3;
 }
