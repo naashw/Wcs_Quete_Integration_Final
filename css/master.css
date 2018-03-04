@@ -34,7 +34,7 @@
 /* Les couleurs au dessu */
 
 .container-fluid {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .navbar {
