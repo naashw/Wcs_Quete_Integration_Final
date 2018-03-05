@@ -20,17 +20,19 @@
   font-size: 1.3em;
 }
 
-
-/* Les font au dessu */
-
 .fontOrange {
   color: #ff5e18;
 }
 
-
 .colorWhite, .colorWhite a {
   color: white !important;
 }
+
+/* Les font au dessu */
+
+
+
+
 
 .orange {
   background-color: #ff5e18;
@@ -78,16 +80,4 @@
 .nav-pills li a:hover{
   text-decoration: none;
   color: #747474;
-}
-
-.thumbnail{
-  background-color: #1d1d1d;
-}
-
-.thumbnail img{
- width: 100%;
-}
-
-.thumbnail .caption p{
-  color: #b3b3b3;
 }
