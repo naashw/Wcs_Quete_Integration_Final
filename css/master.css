@@ -1,11 +1,10 @@
 .fontTitre {
   font-family: 'Titre';
-  font-size: 1em;
 }
 
 .fontTexte {
   font-family: 'Texte';
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 .fontSymbol {
